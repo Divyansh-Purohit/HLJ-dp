@@ -1,0 +1,95 @@
+.infoContainer {
+  height: 25vh;
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.infoContainer > section {
+  padding: 20px;
+  border: 1px solid lightgray;
+}
+
+.title {
+  color: gray;
+  font-size: 14px;
+}
+
+.s1 {
+  width: 20%;
+}
+.s2 {
+  width: 20%;
+}
+.s3 {
+  width: 15%;
+}
+.s4 {
+  width: 15%;
+}
+.s5 {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hover {
+  border-radius: 50%;
+  padding: 2px;
+}
+.hover:hover {
+  background-color: lightgray;
+}
+.dateContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.date > p {
+  padding: 20px;
+  font-family: "Open Sans";
+  color: black;
+  font-size: 42px;
+  font-weight: 400px;
+}
+
+.mn_yr > p {
+  font-family: "Open Sans";
+  color: black;
+  font-size: 20px;
+  font-weight: 400px;
+}
+
+.memberInfo {
+  display: flex;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.memberInfo > p {
+  padding: 20px;
+  color: black;
+  font-size: 42px;
+}
+
+.settings > p {
+  padding: 10px;
+  color: black;
+}
+
+.btn {
+  width: 100;
+  height: 40px;
+  background-color: rgb(236, 190, 73);
+}
+
+/* .dateP {
+  z-index: 4000;
+  height: 300px;
+  width: 300px;
+} */

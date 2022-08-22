@@ -1,0 +1,61 @@
+.imgContainer {
+  /* display: flex; */
+  height: 598px;
+  width: 100%;
+  background-color: transparent;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+  height: 598px;
+  object-fit: cover;
+  z-index: -4000;
+}
+
+.sliderContainer {
+  z-index: 4000;
+  width: 50px;
+  position: absolute;
+  top: 500px;
+  left: 50%;
+  transform: rotate(90deg);
+  animation-name: keyF_1;
+  animation-duration: 2;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-delay: 2s;
+}
+
+@keyframes KeyF_1 {
+  0% {
+    top: 500px;
+    left: 49%;
+  }
+  50% {
+    top: 548px;
+    left: 49%;
+  }
+  100% {
+    top: 548px;
+    left: 49%;
+  }
+}
+
+.sliderContainer > p {
+  margin: 0;
+  width: 50px;
+  color: white;
+  font-size: 48px;
+  /* transform: translateX(100%);
+  transition: transform 2s; */
+}
+
+.trans {
+  padding: 10px;
+  width: 30%;
+  z-index: 4000;
+  position: absolute;
+  top: 200px;
+  left: 30px;
+}

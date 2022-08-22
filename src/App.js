@@ -1,23 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./components/Header/Header";
+import Image from "./components/Image/Image";
+import Info from "./components/Info/Info";
+import LakshmanJhula from "./components/LakshmanJhula/LakhsmanJhula";
+import Explore from "./components/LakshmanJhula/Explore";
+import Advantage from "./components/LakshmanJhula/Advantage";
+import RoomsSuites from "./components/LakshmanJhula/RoomsSuites";
+import Testimony from "./components/LakshmanJhula/Testimony";
+import Packages from "./components/LakshmanJhula/Packages";
+import RoundUp from "./components/LakshmanJhula/RoundUp";
+import Contact from "./components/LakshmanJhula/Contact";
+import Footer from "./components/LakshmanJhula/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
+      <Image />
+      <Info />
+      <LakshmanJhula />
+      <Explore />
+      <Advantage />
+      <RoomsSuites />
+      <Testimony />
+      <Packages />
+      <RoundUp />
+      <Contact />
+      <Footer />
     </div>
   );
 }
